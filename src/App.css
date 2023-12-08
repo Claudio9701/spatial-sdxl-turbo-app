@@ -1,0 +1,26 @@
+.App {
+  /* height: 100vh; */
+}
+
+.webcamContainer {
+  overflow: hidden;
+  border: solid;
+  border-color: green;
+  border-width: 10px;
+  margin-right: 100px;
+  min-width: fit-content;
+}
+
+#webcam {
+  position: relative;
+  max-width: none !important;
+  z-index: 0;
+}
+
+/* Position canvas on top of the webcam */
+#webcamCanvas {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}

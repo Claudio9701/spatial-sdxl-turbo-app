@@ -1,0 +1,25 @@
+#webcam-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+}
+
+#webcam,
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#cropped-container {
+    border: 2px solid black;
+    /* Adjust the border thickness as needed */
+    margin-top: 20px;
+    /* Optional: Adds space between the webcam and cropped containers */
+    padding: 10px;
+    /* Optional: Adds padding inside the container */
+    display: inline-block;
+    /* Adjusts the display of the container */
+}
